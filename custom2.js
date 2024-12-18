@@ -76,22 +76,22 @@ const getWeather = async () => {
   //내가 원하는 이미지 넣기
   let sun;
 
-  if (icon == "01n") {
+  if (icon == "01d" || "01n") {
     sun =
       "https://cdn2.iconfinder.com/data/icons/hobbies-misc-1/512/weather___sun_sunny_solar_forecast_day_season_heat_hot.png";
-  } else if (icon == "02n") {
+  } else if (icon == "02d" || "02n") {
     sun =
       "https://cdn2.iconfinder.com/data/icons/hobbies-misc-1/512/weather___cloudy_partly_forecast_sunny_season_sun_day.png";
-  } else if (icon == "03d") {
+  } else if (icon == "03d" || "03n") {
     sun =
       "https://cdn3.iconfinder.com/data/icons/3d-applications/512/app_icons_storage_weather___cloud_cloudy_forecast_data_database.png";
-  } else if (icon == "09n" || "10n") {
+  } else if (icon == "09n" || "10n" || "09d" || "10d") {
     sun =
       "https://cdn2.iconfinder.com/data/icons/hobbies-misc-1/512/weather___rain_raining_cloud_cloudy_raindrops_forecast_season.png";
-  } else if (icon == "13n") {
+  } else if (icon == "13n" || "13d") {
     sun =
       "https://cdn3.iconfinder.com/data/icons/winter-holiday-10/512/Snowflake_Single_4.png";
-  } else if (icon == "11n") {
+  } else if (icon == "11n" || "11d") {
     sun =
       "https://cdn0.iconfinder.com/data/icons/weather-forecast-element-3d/256/storm_230424.png";
   }
